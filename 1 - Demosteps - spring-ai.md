@@ -1,3 +1,6 @@
+
+https://github.com/bbenz/spring-ai-azure-workshop
+
 # Start up the Spring Boot application
 ./mvnw spring-boot:run
 
@@ -10,7 +13,7 @@ curl --get  --data-urlencode 'adjective=funny' --data-urlencode 'topic=cow' http
 
 # Fourth demo 
 # Open a new Ubuntu Window
-# Defaul - Jeff Bridges
+# Default - Jeff Bridges
 curl http://localhost:8080/ai/output
 # Prompted
 curl --get  --data-urlencode 'actor=Bill Murray' http://localhost:8080/ai/output 
