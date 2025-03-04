@@ -1,8 +1,11 @@
-Here are the detailed instructions for the 30-minute lab in Part 3, including the setup process for GitHub Copilot in VS Code, and some sample prompts for working with a Java project in a GitHub repository.
+# Part 2 - Java development using GitHub Copilot
+## Workshop: AI-Driven Development: Enhancing Java with the latest AI Innovations
+
+### Great reference for copilot instructions: 
+
+https://github.com/bbenz/awesome-copilot-instructions/tree/main?tab=readme-ov-file
 
 ---
-
-### **Lab 1: Getting Started with GitHub Copilot (30 minutes)**
 
 #### **Objective:**
 By the end of this lab, participants will have GitHub Copilot installed in VS Code and use it to scaffold a Java project in a GitHub repository.
@@ -16,9 +19,21 @@ By the end of this lab, participants will have GitHub Copilot installed in VS Co
 - If not already installed, download and install **VS Code** from [here](https://code.visualstudio.com/Download).
 - Follow the installation instructions for your operating system (Windows, macOS, or Linux).
 
+#### **2. Redeem GitHub Pro Coupon (If Needed)**
+
+If you don't already have GitHub Pro, you can redeem a coupon code:
+
+1. Navigate to [github.com/redeem](https://github.com/redeem)
+2. Look for the "Redeem a coupon" option
+3. Enter your workshop coupon code: (will be provided)
+4. Follow the prompts to complete the redemption process
+
+**Note:** If you already have GitHub Pro, you can skip this step.
+
+
 ---
 
-#### **2. Install GitHub Copilot Extension for VS Code**
+#### **3. Install GitHub Copilot Extension for VS Code**
 
 1. **Open VS Code**.
 2. Go to the **Extensions** view by clicking on the Extensions icon in the Activity Bar on the side of the window (or press `Ctrl+Shift+X` on Windows/Linux, `Cmd+Shift+X` on macOS).

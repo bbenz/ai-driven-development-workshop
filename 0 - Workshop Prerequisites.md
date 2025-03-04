@@ -1,4 +1,4 @@
-Thank you for registering for the workshop "AI-Driven Development: Enhancing Java with the Latest AI Innovations." To ensure a smooth and productive session, please make sure the following prerequisites are completed before the workshop:
+This repo is a companioon for the workshop "AI-Driven Development: Enhancing Java with the Latest AI Innovations." To ensure a smooth and productive session, please make sure the following prerequisites are completed before beginning the workshop:
 
 
 1.	JDK: 
