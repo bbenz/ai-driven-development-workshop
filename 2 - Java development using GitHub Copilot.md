@@ -12,11 +12,25 @@ By the end of this lab, participants will have GitHub Copilot installed in VS Co
 
 ---
 
+
+#### **Visual Studio Code Insiders:**
+In order to take advantage of the latest features of GitHub Copilot, we will be using **Visual Studio Code Insiders**. This is a separate version of Visual Studio Code that includes the latest features and updates. 
+
+Visual Studio Code Insiders is a separate installation from the regular Visual Studio Code, so you can have both installed on your machine at the same time. 
+
+It is updated daily with the latest features and bug fixes, so you can test out new features before they are released in the stable version of Visual Studio Code.
+
+To install Visual Studio Code Insiders, go to the Visual Studio Code website and download the Insiders version for your operating system at the following link: https://code.visualstudio.com/insiders/
+
+Once installed, open Visual Studio Code Insiders and sign in with your GitHub account.
+
+---
+
 ### **Step-by-Step Instructions**
 
-#### **1. Install Visual Studio Code (VS Code)**
+#### **1. Install Visual Studio Code Insiders (VS Code)**
 
-- If not already installed, download and install **VS Code** from [here](https://code.visualstudio.com/Download).
+- If not already installed, download and install **VS Code Insiders** from [here](https://code.visualstudio.com/insiders/).
 - Follow the installation instructions for your operating system (Windows, macOS, or Linux).
 
 #### **2. Redeem GitHub Pro Coupon (If Needed)**
@@ -30,12 +44,11 @@ If you don't already have GitHub Pro, you can redeem a coupon code:
 
 **Note:** If you already have GitHub Pro, you can skip this step.
 
-
 ---
 
-#### **3. Install GitHub Copilot Extension for VS Code**
-
-1. **Open VS Code**.
+#### **3. Install the GitHub Copilot Extension for VS Code**
+To install the GitHub Copilot extension in Visual Studio Code Insiders, follow these steps:
+1. **Open VS Code Insiders**.
 2. Go to the **Extensions** view by clicking on the Extensions icon in the Activity Bar on the side of the window (or press `Ctrl+Shift+X` on Windows/Linux, `Cmd+Shift+X` on macOS).
 3. In the Extensions search bar, type "GitHub Copilot".
 4. Find the **GitHub Copilot** extension by GitHub, and click **Install**.
@@ -44,7 +57,12 @@ If you don't already have GitHub Pro, you can redeem a coupon code:
 
 ---
 
-#### **3. work wth prompts**
+#### **3. work wth prompts - chat and edit**
+
+Because we will working with the new edit feature of Copilot, let's back up our working copy of the spring-ai-azure-workshop repo:
+  
+Copy your local copy of spring-ai-azure-workshop and make a copy with a new name
+Open the new copy in VS Code Insiders.
 
 #### Useful GitHub Copilot Prompts for the Spring AI Repository
 
