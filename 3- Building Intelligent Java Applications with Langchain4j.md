@@ -170,13 +170,21 @@ spring.profiles.active=local
 
 ```bash
 cd src/main/docker
-docker compose up
+docker compose -f docker-compose-small.yml up
 ```
 
 This will run:
 - **Ollama**: Hosting Phi-3 and nomic-embed-text models
   - Web UI at http://localhost:8081/
 - **Qdrant**: Vector database at http://localhost:6333/dashboard
+
+### This configuration uses:
+
+- Chat Model: Ollama with tinyllama
+- Image Model: Not available
+- Embedding model: in-memory Java with AllMiniLmL6V2EmbeddingModel
+- Embedding store: Qdrant at http://localhost:6333/dashboard
+- Web UI at http://localhost:8080/
 
 ### Run with Local Models
 
