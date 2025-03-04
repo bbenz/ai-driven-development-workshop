@@ -176,8 +176,22 @@ This will run:
 ### Run with Local Models
 
 In a separate terminal:
+
 ```bash
 cd /path/to/jdubois-langchain4j-demo
+./mvnw clean package  # (Linux/macOS/WSL)
+
+# OR 
+
+mvnw clean package  # (Windows)
+```
+
+Then set the environment variable for local models:
+```
+
+Then run the application:
+
+```bash
 ./mvnw spring-boot:run  # (Linux/macOS/WSL)
 # OR
 mvnw spring-boot:run  # (Windows)
