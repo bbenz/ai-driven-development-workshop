@@ -161,9 +161,10 @@ Explore the codebase to understand:
 If time permits, we can switch to local models:
 
 ### Update Application Properties
+Edit the `src/main/resources/application.properties` file to use small models:
 
-```properties
-spring.profiles.active=local
+```application.properties
+spring.profiles.active=small
 ```
 
 ### Start Local Infrastructure
