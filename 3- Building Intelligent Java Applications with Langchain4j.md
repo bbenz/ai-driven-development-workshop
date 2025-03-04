@@ -129,9 +129,14 @@ export GITHUB_TOKEN=your_token_here  # (Linux/macOS/WSL)
 set GITHUB_TOKEN=your_token_here  # (Windows)
 
 # Navigate to project root and start the app
+# The -Dmaven.test.skip=true flag skips tests for faster startup
+# (You can run tests later if needed)
+
 cd /path/to/jdubois-langchain4j-demo
+./mvnw clean package -Dmaven.test.skip=true # (Linux/macOS/WSL)
 ./mvnw spring-boot:run  # (Linux/macOS/WSL)
 # OR
+mvnw clean package -Dmaven.test.skip=true # (Windows)
 mvnw spring-boot:run  # (Windows)
 ```
 
