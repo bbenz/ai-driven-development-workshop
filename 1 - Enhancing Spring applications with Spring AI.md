@@ -51,7 +51,7 @@ set SPRING_AI_AZURE_OPENAI_API_KEY=your-api-key
 Ensure your `application.properties` file includes:
 
 ```properties
-spring.ai.azure.openai.chat.options.model=gpt-35-turbo-16k
+spring.ai.azure.openai.chat.options.deployment-name=gpt-35-turbo-16k
 spring.ai.azure.openai.embedding.options.model=text-embedding-ada-002
 ```
 

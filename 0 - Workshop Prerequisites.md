@@ -10,7 +10,8 @@ This repo is a companioon for the workshop "AI-Driven Development: Enhancing Jav
 4.	Bash - Terminal on a Mac, or on Windows, install Subsystem for Linux (WSL): https://docs.microsoft.com/en-us/windows/wsl/install
 5.	Azure CLI: Install the Azure CLI here: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 6.	VS Code: Download and install the latest version of Visual Studio Code here: https://code.visualstudio.com/
-7.	Java Extension Pack: Install the Java Extension Pack for VS Code from the marketplace here: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
-8.	Azure Subscription: If you don't already have one, you can sign up here: https://azure.microsoft.com/en-us/free/
-9.	GitHub Account: https://github.com/  I’ll be providing coupons for GitHub Copilot, but if you already have access to a GitHub Enterprise subscription, it’s included.  
+7.	VS Code Insiders: Download and install Visual Studio Code insidershere: https://code.visualstudio.com/insiders/
+8.	Java Extension Pack: Install the Java Extension Pack for VS Code from the marketplace here: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+9.	Azure Subscription: If you don't already have one, you can sign up here: https://azure.microsoft.com/en-us/free/
+10.	GitHub Account: https://github.com/  I’ll be providing coupons for GitHub Copilot, but if you already have access to a GitHub Enterprise subscription, it’s included.  
 
